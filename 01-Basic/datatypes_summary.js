@@ -16,7 +16,7 @@ const anotherId =Symbol('123')
 
 // const bigNumber =345878729837466828934892983037879894n
 
-
+// _-----------_---------_-----------_--------
 
 // Reference (Non Primitive)
 
@@ -31,4 +31,27 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof id)
+// console.log(typeof id)
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+//
+let myYoutubename = "piyushdotcom"
+let anotherName = myYoutubename
+anotherName = "chaiorcode"
+
+// console.log(anotherName)
+// console.log(myYoutubename)
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo =userOne
+userTwo.email= "piyush@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
