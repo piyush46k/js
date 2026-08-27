@@ -8,6 +8,8 @@ const myHeros = ["shaktiman", "naagraj"]
 const myArr2 = new Array(1,2,3,4)
 // console.log(myArr2[1]);
 
+//array methods
+
 // myArr.push(6)
 // myArr.push(7)
 // myArr.pop()
@@ -35,7 +37,7 @@ console.log("B ",myArr)
 
 const myn2 = myArr.splice(1,3)
 console.log("C ",myArr)
-console.log(myn2)
+console.log(myn2) 
 
 
 
